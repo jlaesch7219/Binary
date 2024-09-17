@@ -11,14 +11,14 @@ struct ContentView: View {
     var body: some View {
         VStack {
             
-            Text("Persistance")
+            Text("Binary Converter")
                 .fontWeight(.black)
                 .font(.system(size: 55))
                 .underline()
             NavigationView{
                 VStack{
                     
-                    NavigationLink("To Do List"){
+                    NavigationLink("Decimal to Binary"){
                         DecimalView()
                     }
                     Spacer()
@@ -26,7 +26,7 @@ struct ContentView: View {
                     Divider()
                     Spacer()
                         .frame(height: 150)
-                    NavigationLink("College List"){
+                    NavigationLink("Binary to decimal"){
                         BinaryView()
                     }
                 }
