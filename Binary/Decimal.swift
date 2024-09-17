@@ -17,5 +17,4 @@ struct DecimalView: View {
 }
 #Preview {
     ContentView()
-        .modelContainer(for: Item.self, inMemory: true)
 }
